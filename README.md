@@ -84,3 +84,7 @@ Returns the name of the layer number aLayer.
 public Layer GetLayer(int aLayer)
 ```
 Returns the layer number aLayer.
+
+# Tiled tool
+In order to use the CTiled class you need the map as a TextAsset but Unity doesn't take the .tmx as a TextAsset so I made a tool for creating it. It creates a duplicate of the map and changes the extension, I didn't make it just change the extension because it would disrupt the Tiled work environment.
+To create the TextAsset you just have to right click on a tmx file and go to Tiled > Create TextAsset.
